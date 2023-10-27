@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* -------------------------------------------UPPER PART---------------------------------------------- */
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #f0f2f5;
+}
+/* --------------------------------------------THE BOX WHICH CONTAINS LOGO AND FORM------------------------------- */
+.facebook-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 420px;
+    width: 1000px;
+}
+
+.facebook-para{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* background-color: aqua; */
+    height: 348px;
+    width: 550px;
+    /* padding: 5px; */
+}
+
+.login-form{
+    background-color: #ffffff;
+    height: 348px;
+    width: 396px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* .width{
+    width: 100%;
+} */
+
+input{
+    height: 51px;
+    width: 349px;
+    padding-left: 14px;
+    border: 1px solid #dddfe2;
+    border-radius: 8px;
+}
+
+#login{
+    width: 366px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    background-color: #1877f2;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+}
+
+#createAccount{
+    height: 48px;
+    width: 192px;
+    border: none;
+    border-radius: 6px;
+    background-color: #42b72a;
+    color: white;
+    font-size: medium;
+    font-weight: 700;
+}
+
+::placeholder{
+    color:#1d2129;
+    opacity: 0.33;
+    font-size: medium;
+    font-weight: lighter;
+    padding: 14px 16px 14px 16px;
+}
+
+/* ----------------facebook logo----------------------- */
+.facebook-logo{
+    /* margin-right: 50px; */
+    height: 106px;
+    width: 302px;
+    margin-top: 30px;
+    background-image: url(images/4aAhOWlwaXf.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.facebook-line{
+    font-size: 28px;
+    margin-left: 20px;
+}
+
+#forget a{
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.create-page{
+    display: flex;
+    width: 396px;
+    align-self: flex-end;
+}
+
+/* ------------------------footer---------------------- */
+footer{
+    /* display: flex; */
+    /* justify-content: center; */
+    background-color: #ffffff;
+    height: 156px;
+}
+
+.info{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.info a{
+    margin-top: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+    color:#8a8d91;
+    font-size: smaller;
+    font-weight: 100;
+    /* opacity: 0.6; */
+}
