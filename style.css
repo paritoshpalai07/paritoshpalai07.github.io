@@ -67,7 +67,7 @@ input{
 }
 
 #login:hover{
-pointer: cursor;
+cursor: pointer;
 }
 
 #createAccount{
@@ -79,6 +79,10 @@ pointer: cursor;
     color: white;
     font-size: medium;
     font-weight: 700;
+}
+
+#createAccount:hover{
+    cursor: pointer;
 }
 
 ::placeholder{
